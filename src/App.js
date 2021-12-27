@@ -9,6 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar/>
+        <img src= './everythingMeta.png' className='logo-img'></img>
         <div className="content">
           <Switch>
             <Route exact path='/'>
